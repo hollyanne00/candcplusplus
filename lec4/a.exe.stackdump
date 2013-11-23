@@ -1,0 +1,9 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=61126D53
+eax=00000064 ebx=004020A8 ecx=00000001 edx=00000064 esi=00000000 edi=00000064
+ebp=0028A948 esp=0028A944 program=H:\repos\candcplusplus\lec4\a.exe, pid 5500, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0028A948  61126D53 (00000064, 0028AA10, 004020A8, 00000001)
+0028AA9C  61131322 (80000038, 00000000, 610FCD65, 80000098)
+End of stack trace
